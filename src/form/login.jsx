@@ -37,8 +37,8 @@ import React,{useState} from "react"
                 <p>Don't you have an account?<a href=""><span className="text-green-600"> Signup Now</span></a></p>
                  
                  {!loading&&<button type="submit" className="bg-green-800 px-4 py-2 rounded w-full my-2 ">Sign in</button> 
-                 }
-                 {loading&& <p>loading..</p>} 
+                 }{loading&& <p>loading..</p>}
+                  
                  </form>
          </div>
          </div>
