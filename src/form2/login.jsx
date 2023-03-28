@@ -24,7 +24,7 @@ const Form1 =()=>{
             <div className="grid md:grid-cols-2">
                 <div>
                     <h1 className="py-10 text-5xl text-center"> Welcome back</h1>
-                    <p className=" text-xl text-center">The faster you fill up,the faster you get a ticket</p>
+                    <p className=" text-xl text-center">The Faster you fill up,the faster you get a ticket</p>
 
                 <form  onSubmit={handleLogin} className="p-8 max-w-lg mx-auto ">
 
